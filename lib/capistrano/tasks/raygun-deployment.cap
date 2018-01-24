@@ -54,5 +54,4 @@ namespace :deploy do
     end
   end
 
-  after 'deploy:finished', :raygun_register_deployment
 end
